@@ -26,7 +26,8 @@ pipeline {
                     builderImage.inside('-v $WORKSPACE:/output -u root') {
                         sh """
                            cd /output
-                           lein uberjar
+                           ls
+                           # lein uberjar
                         """
                     }
                 }
@@ -40,7 +41,8 @@ pipeline {
                     builderImage.inside('-v $WORKSPACE:/output -u root') {
                     sh """
                        cd /output
-                       lein test
+                       ls
+                       # lein test
                     """
                     }
                 }
