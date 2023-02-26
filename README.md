@@ -19,3 +19,7 @@ To start a web server for the application, run:
 ## License
 
 Copyright © 2018 FIXME
+
+## rcorozo comment
+
+I'm using this repo to learn more about Jenkins CI/CD pipelines.
